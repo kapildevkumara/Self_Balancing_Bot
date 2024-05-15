@@ -1,8 +1,29 @@
-# Self_Balancing_Bot
-In this project we aim to design, construct and implement the control of a two- wheel self-balancing robot using LQR Controller.
 
-Two-wheeled self-balancing robot is a popular model in control system experiments which is more widely known as inverted pendulum and cart model. This is a multi-input and multi-output system which is theoretical and has been applied in many systems in daily use. 
+# Self Balancing Bot
 
-There were few researches that focus on complete mathematical modeling and designing a controller for the system. In this project we aim to design, construct and implement the control of a two-wheel self-balancing robot using LQR Controller. The system consist a pair of DC motor, motor controller and Arduino 101 microcontroller board with inbuilt 3-axis gyroscope and a 3-axis accelerometer, employed for vertical angle determination and encoders for drift and linear velocity determination. In addition, a complementary filter is implemented to compensate for accelerometer noise and gyro drifts. The controller was tested with different case of system condition practically and through simulation on Simulink and Matlab programming.
+This project aims to design, construct, and implement the control of a two-wheel self-balancing robot using PID and LQR Controller.
 
-Please Refer Report(Report.pdf) for Further Details.
+The two-wheeled self-balancing robot, also known as the inverted pendulum and cart model, is a popular model in control system experiments. It is a multi-input and multi-output system that has theoretical significance and has been applied in many systems in daily use.
+
+## Project Components
+- **Hardware:**
+  - Pair of DC motors
+  - Motor controller
+  - Arduino microcontroller board with built-in 3-axis gyroscope and a 3-axis accelerometer
+  - Encoders for drift and linear velocity determination
+
+- **Software:**
+  - Complementary filter to compensate for accelerometer noise and gyro drifts
+  - Implementation of PID and LQR controllers
+  - Testing conducted through simulation on Simulink and MATLAB
+
+## Report
+For further details, please refer to the [Report.pdf](Report.pdf).
+
+## Project Images
+- Algorithm: ![Algorithm](Algorithm.png)
+- Model: ![Model](Model.png)
+
+## Usage
+- Copy the files in the "Libraries" folder to the Arduino Library folder in your PC.
+- Compile and Upload SelfBalanceRobot.ino to your Robot
