@@ -17,13 +17,17 @@ The two-wheeled self-balancing robot, also known as the inverted pendulum and ca
   - Implementation of PID and LQR controllers
   - Testing conducted through simulation on Simulink and MATLAB
 
-## Report
-For further details, please refer to the [Report.pdf](Report.pdf).
+## Implementation
+### Algorithm:
+![Algorithm](Algorithm.png)
 
-## Project Images
-- Algorithm: ![Algorithm](Algorithm.png)
-- Model: ![Model](Model.png)
+### Model:
+![Model](Model.png)
 
 ## Usage
 - Copy the files in the "Libraries" folder to the Arduino Library folder in your PC.
 - Compile and Upload SelfBalanceRobot.ino to your Robot
+
+## Report
+For further details, please refer to the [Report.pdf](Report.pdf).
+
